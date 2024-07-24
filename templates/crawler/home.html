@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Media Crawler</title>
+</head>
+<body>
+    <h1>Social Media Posts</h1>
+    <ul>
+    {% for post in posts %}
+        <li>{{ post.content }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
